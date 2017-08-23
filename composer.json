@@ -1,0 +1,36 @@
+{
+  "name": "wr/onepage-bundle",
+  "type": "contao-bundle",
+  "description": "This Onepage Bundle add a onepage navigation module to Contao Open Source CMS",
+  "keywords": ["onepage","navigation","article","contao"],
+  "homepage": "https://github.com/webrealisierung-ch/team-bundle",
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Daniel Steuri ",
+      "email": "mail@webrealisierung.ch",
+      "homepage": "https://webrealisierung.ch"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "symfony/framework-bundle": "^3.3",
+    "contao/core-bundle": "^4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wr\\OnepageBundle\\": "src/"
+    },
+    "classmap": [
+      "src/Resources/contao/"
+    ],
+    "exclude-from-classmap": [
+      "src/Resources/contao/config/",
+      "src/Resources/contao/dca/",
+      "src/Resources/contao/languages/"
+    ]
+  },
+  "extra": {
+    "contao-manager-plugin": "Wr\\OnepageBundle\\ContaoManager\\Plugin"
+  }
+}
