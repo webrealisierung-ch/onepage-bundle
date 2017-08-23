@@ -1,0 +1,10 @@
+<?php if($this->arrArticle):?>
+<nav class="mod_wr_onepagenavigation">
+    <ul>
+        <?php foreach($this->arrArticle as $artNav): ?>
+            <li> <a href="<?= $this->uri?>#<?= $artNav['alias']?>"><?php echo $artNav['title'] ?></a></li>
+        <?php endforeach;?>
+
+    </ul>
+</nav>
+<?endif;?>
