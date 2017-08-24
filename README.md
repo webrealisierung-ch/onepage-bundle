@@ -6,6 +6,7 @@ With this bundle you can easily add a onepage navigation to your website.
 
 This bundle is currently under development. You can use it at your own risk! A stable version will be available soon. Of course you can submit issues and feature requests on the [repository issue section](https://github.com/webrealisierung-ch/onepage-bundle/issues). Thx! 
 
+## How to install
 
 ### Contao Standard Edition
 
