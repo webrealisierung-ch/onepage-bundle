@@ -1,2 +1,6 @@
 <?php
-$GLOBALS['FE_MOD']['Werbrealisierung']['wr-onepage'] = 'ModuleWrOnepage';
+
+array_insert($GLOBALS['FE_MOD']['navigationMenu'],1, array(
+        'wr-onepage' => 'ModuleWrOnepage'
+    )
+);
