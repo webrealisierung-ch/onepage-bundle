@@ -9,10 +9,11 @@ class ModuleWrOnepage extends \Module {
         if($this->rootPage){
             $Articles=\Contao\ArticleModel::findByPid($this->rootPage);
             $rootPageId=\Contao\PageModel::findById($this->rootPage);
-            $this->Template->uri = $rootPageId->alias.".html";
+            $this->Template->uri = $rootPageId->getFrontendUrl('');
         } else{
             $Articles=\Contao\ArticleModel::findByPid($objPage->id);
-            $this->Template->uri = $_ENV['REQUEST_URI'];
+            $urlGenerator=\Contao\System::getContainer()->get('contao.routing.url_generator');
+            $this->Template->uri = $url=$urlGenerator->generate($objPage->alias);
         }
         $arrArticle = array();
         foreach($Articles as $article){
