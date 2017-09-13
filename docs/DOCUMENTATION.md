@@ -10,7 +10,9 @@ Add the one page navigation module to your site layout.
 
 **Reference page**
 
-You can select a reference page from where the one page navigation will load the articles to display in the one page navigation module. If the visited page is not the reference page the one page module redirect to the reference page. If the reference page is not set the one page navigation will show you the articles of the visited page.
+You can select a reference page from where the one page navigation will load the articles to display in the one page navigation module. If the visited page is not the reference page the one page module redirect to the reference page.
+
+If the reference page is not set the one page navigation will show you the articles of the visited page.
 
 ## Article Settings
 
@@ -23,13 +25,21 @@ If the checkbox *"Show in one page navigation"* is selected the article will be 
 Considering the following site and article structure
 
 - Root page
-    - Homepage (Page) *Defined as reference page in the module*
-        - About us (Article) – *Show in one page navigation* is selected
-        - Parallax 1 Section (Article) – ~~Show in one page navigation~~ is not selected
+    - Homepage (Page) –> *Defined as reference page in the module*
+        - About us (Article) –> *Show in one page navigation* is selected
+        - Parallax 1 Section (Article) –> ~~Show in one page navigation~~ is not selected
         - Team (Article) – *Show in one page navigation* is selected
-        - Parallax 2 Section (Article) – ~~Show in one page navigation~~ is not selected
-        - Contact (Article) – *Show in one page navigation* is selected
+        - Parallax 2 Section (Article) –> ~~Show in one page navigation~~ is not selected
+        - Contact (Article) –> *Show in one page navigation* is selected
     - Imprint (Page)
-        - Imprint (Article) – ~~Show in one page navigation~~ is not selected
+        - Imprint (Article) –> ~~Show in one page navigation~~ is not selected
     - Disclaimer (Page)
-        - Disclaimer (Article) – ~~Show in one page navigation~~ is not selected
+        - Disclaimer (Article) –> ~~Show in one page navigation~~ is not selected
+        
+**Explanation**
+
+The one page navigation module display in this setup the following navigation points: About Us, Team and Contact. 
+
+On the pages imprint and disclaimer the one page navigation will also display the navigation points About Us, Team and Contact because the page "Homepage" is selected as reference page in the module settings.
+
+The articles Imprint and Disclaimer will not displayed in the one page navigation even if the "Show in one page navigation" checkbox is selected because of the selected reference page.
