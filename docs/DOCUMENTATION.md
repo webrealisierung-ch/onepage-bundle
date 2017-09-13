@@ -24,12 +24,12 @@ Considering the following site and article structure
 
 - Root page
     - Homepage (Page) *Defined as reference page in the module*
-        - About us (Article) *Show in one page navigation* is selected
-        - Parallax 1 Section (Article) ~~Show in one page navigation~~ is not selected
-        - Team (Article) *Show in one page navigation* is selected
-        - Parallax 2 Section (Article) ~~Show in one page navigation~~ is not selected
-        - Contact (Article) *Show in one page navigation* is selected
+        - About us (Article) – *Show in one page navigation* is selected
+        - Parallax 1 Section (Article) – ~~Show in one page navigation~~ is not selected
+        - Team (Article) – *Show in one page navigation* is selected
+        - Parallax 2 Section (Article) – ~~Show in one page navigation~~ is not selected
+        - Contact (Article) – *Show in one page navigation* is selected
     - Imprint (Page)
-        - Imprint (Article) ~~Show in one page navigation~~ is not selected
+        - Imprint (Article) – ~~Show in one page navigation~~ is not selected
     - Disclaimer (Page)
-        - Disclaimer (Article) ~~Show in one page navigation~~ is not selected
+        - Disclaimer (Article) – ~~Show in one page navigation~~ is not selected
