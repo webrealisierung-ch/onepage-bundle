@@ -12,7 +12,7 @@ Add the one page navigation module to your site layout.
 
 You can select a reference page from where the one page navigation will load the articles to display in the one page navigation module. If the visited page is not the reference page the one page module redirect to the reference page.
 
-If the reference page is not set the one page navigation will show you the articles of the visited page.
+If the reference page is not set the one page navigation will show you the articles of the current visited page.
 
 ## Article Settings
 
@@ -26,7 +26,7 @@ Considering the following site and article structure
 
 - Root page
     - Homepage (Page) –> *Defined as reference page in the module*
-        - About us (Article) –> *Show in one page navigation* is selected
+        - About Us (Article) –> *Show in one page navigation* is selected
         - Parallax 1 Section (Article) –> ~~Show in one page navigation~~ is not selected
         - Team (Article) – *Show in one page navigation* is selected
         - Parallax 2 Section (Article) –> ~~Show in one page navigation~~ is not selected
