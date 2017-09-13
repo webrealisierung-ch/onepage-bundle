@@ -80,7 +80,7 @@ The onepage bundle is published under the LGPLv3.
 
 Unfortunately, at the moment there is no documentation available. But we will fix this as soon as there is a stable version.
  
- ## Contact/Support
+ ## Contact and Support
  
  For further information feel free and get in contact with us: mail@webrealisierung.ch
  
