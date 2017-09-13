@@ -3,7 +3,7 @@
     <file datatype="php" original="src/Resources/contao/languages/en/tl_article.php" source-language="en">
         <body>
             <trans-unit id="tl_article.onepage_legend">
-                <source>Onepage Settings</source>
+                <source>One Page Settings</source>
             </trans-unit>
             <trans-unit id="tl_article.in_onepage.0">
                 <source>Show in one page navigation</source>
