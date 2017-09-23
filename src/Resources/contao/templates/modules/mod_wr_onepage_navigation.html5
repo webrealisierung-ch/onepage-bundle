@@ -1,5 +1,5 @@
 <?php if($this->arrArticle):?>
-<nav <?php if($this->cssID): ?>id="<?= $this->cssID?>"<?php endif; ?> class="<?php echo $this->class; ?>">
+<nav <?= $this->cssID?> class="<?php echo $this->class; ?>">
     <ul>
         <?php foreach($this->arrArticle as $artNav): ?>
             <li> <a href="<?= $this->uri?>#<?= $artNav['alias']?>"><?php echo $artNav['title'] ?></a></li>
