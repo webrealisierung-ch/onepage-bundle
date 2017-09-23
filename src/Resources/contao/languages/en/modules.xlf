@@ -2,10 +2,10 @@
 <xliff version="1.1">
   <file datatype="php" original="src/Resources/contao/languages/en/modules.php" source-language="en">
     <body>
-      <trans-unit id="FMD.wr-onepage.0">
+      <trans-unit id="FMD.wr-onepage-navigation.0">
         <source>One Page Navigation</source>
       </trans-unit>
-      <trans-unit id="FMD.wr-onepage.1">
+      <trans-unit id="FMD.wr-onepage-navigation.1">
         <source>Generate a one page navigation menu from desired articles on the page.</source>
       </trans-unit>
       <trans-unit id="tl_module.redirect">
