@@ -8,6 +8,30 @@ This bundle is currently under development. You can use it at your own risk! A s
 
 ## How to install
 
+### Contao Managed Edition
+
+**With the awesome Contao Manager**
+
+1. Search in the Contao Manager search bar the bundle `wr/onepage-bundle` and click on the install button.
+2. Go to the install tool and update the database. Then login into the back end.
+
+**Without the awesome Contao Manager**
+
+Run in your project folder the following Composer command to add the Onepage Bundle to your project:
+
+```console
+    composer require wr/onepage-bundle
+```
+
+Clear the cache and warmup the cache with the following two commands:
+
+```console
+    vendor/bin/contao-console cache:clear --no-warmup
+    vendor/bin/contao-console cache:warmup
+```
+
+Go to the install tool and update the database. Then login into the back end.
+
 ### Contao Standard Edition
 
 Run in your project folder the following Composer command to add the Onepage Bundle to your project:
@@ -40,30 +64,6 @@ Clear the cache and warmup the cache with the following two commands:
 ```
 
 Go to the install tool and update the database. Then login into the back end.
-
-### Contao Managed Edition
-
-**Without the awesome Contao Manager**
-
-Run in your project folder the following Composer command to add the Onepage Bundle to your project:
-
-```console
-    composer require wr/onepage-bundle
-```
-
-Clear the cache and warmup the cache with the following two commands:
-
-```console
-    vendor/bin/contao-console cache:clear --no-warmup
-    vendor/bin/contao-console cache:warmup
-```
-
-Go to the install tool and update the database. Then login into the back end.
-
-**With the awesome Contao Manager**
-
-1. Search in the Contao Manager search bar the bundle `wr/onepage-bundle` and click on the install button.
-2. Go to the install tool and update the database. Then login into the back end.
 
 
 ## Dependencies
