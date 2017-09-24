@@ -9,6 +9,8 @@ Platziere die One Page Naviagtion im Seitenlayout an der gewünschen Stelle.
 
 ### Redirect Settings
 
+<img src="images/module-settings.png" width="500">
+
 **Reference page**
 
 Definieren Sie optional eine Referenzseite von welcher das Module die Artikel für die Anzeige in der Navigation lädt. Wenn ein Besucher sich also nicht auf der Referenzseite befindet werden dennoch dessen Artikel in der One Page Navigation angezeigt und bei einem Klick dorthin weitergeleitet.
@@ -16,6 +18,10 @@ Definieren Sie optional eine Referenzseite von welcher das Module die Artikel f�
 Wenn die Referenzseite nicht gewählt ist zeigt das Modul immer die entsprechenden Artikel der besuchten Seite an.
 
 ## Article Settings
+
+<img src="images/article-settings.png" width="500">
+<br>
+<img src="images/article-checkbox.png" width="500">
 
 In den Artikeleinstellungen finden Sie unter der Legende *"One Page Settings"* eine neue Checkbox.
 
