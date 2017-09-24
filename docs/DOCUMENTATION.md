@@ -16,6 +16,8 @@ If the reference page is not set the one page navigation will show you the artic
 
 ## Article Settings
 
+<img src="/images/article-checkbox.png" width="500">
+
 In the article settings under the legend *"One Page Settings"* you can now find a checkbox.
 
 If the checkbox *"Show in one page navigation"* is selected the article will be displayed in the one page navigation.
