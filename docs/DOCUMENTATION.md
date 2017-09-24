@@ -19,8 +19,7 @@ If the reference page is not set the one page navigation will show you the artic
 ## Article Settings
 
 <img src="images/article-settings.png" width="500">
-
-
+<br>
 <img src="images/article-checkbox.png" width="500">
 
 In the article settings under the legend *"One Page Settings"* you can now find a checkbox.
