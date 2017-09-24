@@ -8,6 +8,8 @@ Add the one page navigation module to your site layout.
 
 ### Redirect Settings
 
+<img src="images/module-checkbox.png" width="500">
+
 **Reference page**
 
 You can select a reference page from where the one page navigation will load the articles to display in the one page navigation module. If the visited page is not the reference page the one page module redirect to the reference page.
@@ -16,6 +18,10 @@ If the reference page is not set the one page navigation will show you the artic
 
 ## Article Settings
 
+1.
+<img src="images/article-settings.png" width="500">
+
+2.
 <img src="images/article-checkbox.png" width="500">
 
 In the article settings under the legend *"One Page Settings"* you can now find a checkbox.
