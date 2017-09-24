@@ -79,7 +79,9 @@ The onepage bundle is published under the LGPLv3.
 ## Documentation
 
 [Go to the documentation](https://webrealisierung-ch.github.io/onepage-bundle/DOCUMENTATION)
- 
+
+[Zur Dokumentation (DE)](https://webrealisierung-ch.github.io/onepage-bundle/DOCUMENTATION-DE)
+
  ## Contact and Support
  
  For further information feel free and get in contact with us: mail@webrealisierung.ch
