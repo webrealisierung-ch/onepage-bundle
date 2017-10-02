@@ -15,6 +15,11 @@ class ModuleWrOnepage extends \Module {
             $urlGenerator=\Contao\System::getContainer()->get('contao.routing.url_generator');
             $this->Template->uri = $url=$urlGenerator->generate($objPage->alias);
         }
+
+        if($this->loadDefaultJavascript){
+            $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/wronepage/Onepage.js';
+        }
+
         $arrArticle = array();
         foreach($Articles as $article){
             if(strlen($article->in_onepage && $article->published)){
@@ -26,6 +31,7 @@ class ModuleWrOnepage extends \Module {
                 );
             }
         }
+        $this->Template->loadStandartJavascipt = $this->loadDefaultJavascript;
         $this->Template->arrArticle = $arrArticle;
     }
 }
