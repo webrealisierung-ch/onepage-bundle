@@ -6,5 +6,17 @@
         <?php endforeach;?>
 
     </ul>
+    <?php if($this->loadDefaultJavascript): ?>
+        <script>
+            window.onload = function() {
+                onepage = new Onepage();
+                /*
+                * onepage.duration = 100; //Default 400
+                * onepage.easing = "easeInOut"; // Default "linear"
+                */
+                onepage.init();
+            }
+        </script>
+    <?endif;?>
 </nav>
 <?endif;?>
