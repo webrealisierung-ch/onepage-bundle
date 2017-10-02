@@ -8,8 +8,17 @@
       <trans-unit id="FMD.wr-onepage-navigation.1">
         <source>Generate a one page navigation menu from desired articles on the page.</source>
       </trans-unit>
-      <trans-unit id="tl_module.redirect">
+      <trans-unit id="tl_module.redirect_legend">
         <source>Redirect Settings</source>
+      </trans-unit>
+      <trans-unit id="tl_module.options_legend">
+        <source>One page settings</source>
+      </trans-unit>
+      <trans-unit id="tl_module.load_default_javascript.0">
+        <source>Load the standard javascript</source>
+      </trans-unit>
+      <trans-unit id="tl_module.load_default_javascript.1">
+        <source>The standard one page javascript add the smooth scroll effect.</source>
       </trans-unit>
     </body>
   </file>
