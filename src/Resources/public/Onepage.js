@@ -8,11 +8,14 @@ function Onepage(selector){
 
     this.duration = 400;
     this.easing = "linear";
+    this.offset = 0;
 
     this.onClick = function(event,element,self){
         event.preventDefault();
         anchorElement  = document.getElementById(element.hash.replace("#", ""));
-        self.scroll(document.body, anchorElement.offsetTop);
+        var offsetTop = this.findBody(anchorElement);
+        console.log(offsetTop);
+        self.scroll(document.body, offsetTop);
     };
     this.checkIfIdExist = function (id) {
         anchorElement=document.getElementById(id);
@@ -91,5 +94,20 @@ function Onepage(selector){
     };
     this.linear = function (t) {
         return t;
+    }
+    this.findBody = function(element,offsetTop){
+
+        if(offsetTop===undefined){
+            offsetTop = 0;
+        }
+
+        if(element.offsetParent != undefined)
+        {
+            offsetTop += element.offsetTop;
+            offsetTop = this.findBody(element.offsetParent, offsetTop);
+        }
+
+        return offsetTop;
+
     }
 }

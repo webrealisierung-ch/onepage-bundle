@@ -10,6 +10,7 @@ This bundle is currently under development. You can use it at your own risk! A s
 
 ### Contao Managed Edition
 
+
 **With the awesome Contao Manager**
 
 1. Search in the Contao Manager search bar the bundle `wr/onepage-bundle` and click on the install button.
