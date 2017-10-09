@@ -12,7 +12,7 @@ function Onepage(selector){
 
     this.onClick = function(event,element,self){
         event.preventDefault();
-        anchorElement  = document.getElementById(element.hash.replace("#", ""));
+        anchorElement  = document.getElementById(decodeURI(element.hash.replace("#", "")));
         var offsetTop = this.findBody(anchorElement);
         console.log(offsetTop);
         self.scroll(document.body, offsetTop);
@@ -29,7 +29,7 @@ function Onepage(selector){
         for (var i = 0; a.length>i; i++) {
             if(a[i].href){
                 anchorId=a[i].hash.replace("#", "");
-                this.anchorElement=this.checkIfIdExist(anchorId);
+                this.anchorElement=this.checkIfIdExist(decodeURI(anchorId));
                 var that = this;
                 if(this.anchorElement){
                     a[i].addEventListener("click",function(event){
