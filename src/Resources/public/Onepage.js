@@ -6,6 +6,8 @@ function Onepage(selector){
         this.a = document.querySelectorAll(selector+' a[href*="#"]');
     }
 
+    this.scrollingElement=document.documentElement;
+    if(document.scrollingElement) this.scrollingElement=document.scrollingElement;
     this.duration = 400;
     this.easing = "linear";
     this.offset = 0;
@@ -14,8 +16,7 @@ function Onepage(selector){
         event.preventDefault();
         anchorElement  = document.getElementById(decodeURI(element.hash.replace("#", "")));
         var offsetTop = this.findBody(anchorElement);
-        console.log(offsetTop);
-        self.scroll(document.body, offsetTop);
+        self.scroll(this.scrollingElement, offsetTop);
     };
     this.checkIfIdExist = function (id) {
         anchorElement=document.getElementById(id);
@@ -51,7 +52,6 @@ function Onepage(selector){
                 this.direction = "up";
             }
         }
-
         switch(this.easing){
             case "linear":
                 t = this.linear(startTime/this.duration);
@@ -68,7 +68,6 @@ function Onepage(selector){
             default:
                 t = this.linear(startTime/this.duration);
         }
-
 
         scrollUnit = this.distance/1*t;
 
@@ -94,7 +93,7 @@ function Onepage(selector){
     };
     this.linear = function (t) {
         return t;
-    }
+    };
     this.findBody = function(element,offsetTop){
 
         if(offsetTop===undefined){
@@ -106,8 +105,6 @@ function Onepage(selector){
             offsetTop += element.offsetTop;
             offsetTop = this.findBody(element.offsetParent, offsetTop);
         }
-
         return offsetTop;
-
     }
 }
