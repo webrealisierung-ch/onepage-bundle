@@ -6,8 +6,7 @@ function Onepage(selector){
         this.a = document.querySelectorAll(selector+' a[href*="#"]');
     }
 
-    this.scrollingElement=document.documentElement;
-    if(document.scrollingElement) this.scrollingElement=document.scrollingElement;
+    this.scrollingElement =  document.scrollingElement || document.documentElement;
     this.duration = 400;
     this.easing = "linear";
     this.offset = 0;
