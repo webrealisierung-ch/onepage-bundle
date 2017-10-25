@@ -13,6 +13,7 @@
                 /*
                 * onepage.duration = 100; //Default 400
                 * onepage.easing = "easeInOut"; // Default "linear"
+                * onepage.offset = 50; // Default "0"
                 */
                 onepage.init();
             }
