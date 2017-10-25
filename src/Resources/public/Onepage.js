@@ -6,7 +6,7 @@
 
 /**
  * Reperesent a onepage object. The onepage object provide
- * methods to scroll to a anchorelement within a Page.
+ * methods to scroll to a anchor element within a Page.
  * @param {string} [a[href*="#"]] selector - A optional valid css selector
  */
 
@@ -48,7 +48,7 @@ function Onepage(selector){
 
     /**
      * Prevent the default click event of a given element and
-     * add the scroll funtion.
+     * add the scroll function.
      * @param event
      * @param element
      * @param self
@@ -68,7 +68,7 @@ function Onepage(selector){
     };
 
     /**
-     * Check of a element with the given id is existing in the DOM
+     * Check of a element with the given id is existing in the document
      * @param {sting} id - Name of a css id
      * @return {boolean} true if the element exist, otherwise false
      */
