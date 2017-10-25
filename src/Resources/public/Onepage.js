@@ -148,7 +148,7 @@ function Onepage(selector){
     this.findBody = function(element,offsetTop){
 
         if(offsetTop===undefined){
-            offsetTop = this.offset;
+            offsetTop = - this.offset;
         }
 
         if(element.offsetParent != undefined)
