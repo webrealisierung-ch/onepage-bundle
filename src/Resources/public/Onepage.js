@@ -5,7 +5,7 @@
  */
 
 /**
- * Reperesent a onepage object. The onepage object provide
+ * Represent a one page object. The one page object provide
  * methods to scroll to a anchor element within a Page.
  * @param {string} [a[href*="#"]] selector - A optional valid css selector
  */

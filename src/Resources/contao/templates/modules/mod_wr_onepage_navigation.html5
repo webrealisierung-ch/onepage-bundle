@@ -18,6 +18,6 @@
                 onepage.init();
             }
         </script>
-    <?endif;?>
+    <?php endif;?>
 </nav>
-<?endif;?>
+<?php endif;?>
