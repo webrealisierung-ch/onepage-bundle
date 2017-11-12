@@ -31,7 +31,7 @@ function Onepage(selector){
      * @constructor
      */
     this.init = function () {
-        a = this.a;
+        var a = this.a;
 
         for (var i = 0; a.length>i; i++) {
             if(a[i].href){
