@@ -17,7 +17,7 @@ class ModuleWrOnepage extends \Module {
         }
 
         if($this->loadDefaultJavascript){
-            $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/wronepage/Onepage.js';
+            $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/wronepage/Onepage.min.js';
         }
 
         $arrArticle = array();
