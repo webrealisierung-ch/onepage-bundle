@@ -33,40 +33,6 @@ Clear the cache and warmup the cache with the following two commands:
 
 Go to the install tool and update the database. Then login into the back end.
 
-### Contao Standard Edition
-
-Run in your project folder the following Composer command to add the Onepage Bundle to your project:
-
-```console
-    ./composer require wr/onepage-bundle
-```
-
-Add the Bundle to `app/AppKernel.php` bundles array after all the Contao bundles:
-
-```php
-public function registerBundles()
-    {
-        $bundles = [
-            .....    
-            new Wr\OnepageBundle\WrOnepageBundle() //Add this line.
-        ];
-
-        ....
-        
-        return $bundles;
-    }
-```
-
-Clear the cache and warmup the cache with the following two commands:
-
-```console
-    ./bin/console cache:clear --no-warmup --env=prod
-    ./bin/console cache:warmup  --env=prod
-```
-
-Go to the install tool and update the database. Then login into the back end.
-
-
 ## Dependencies
 
 - `php: ^7.0`
