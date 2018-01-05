@@ -1,5 +1,5 @@
 <?php
-$GLOBALS['TL_DCA']['tl_module']['palettes']['wr-onepage-navigation'] = '{title_legend},name,type;{redirect_legend},rootPage;{options_legend},loadDefaultJavascript;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID';
+$GLOBALS['TL_DCA']['tl_module']['palettes']['wr-onepage-navigation'] = '{title_legend},name,headline,type;{redirect_legend},rootPage;{options_legend},loadDefaultJavascript;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID';
 
 
 $GLOBALS['TL_DCA']['tl_module']['fields']['loadDefaultJavascript'] = array
