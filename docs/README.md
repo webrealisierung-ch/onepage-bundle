@@ -1,6 +1,6 @@
 # Onepage Bundle for Contao Open Source CMS
 
-With this bundle you can easily add a onepage navigation to your website.
+With this bundle you can easily add a onepage navigation to your website. **No jQuery required!**
 
 ## Attention
 
