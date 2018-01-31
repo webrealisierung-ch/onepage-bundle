@@ -17,6 +17,7 @@ class ModuleWrOnepage extends \Module {
         }
 
         if($this->loadDefaultJavascript){
+            $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/wronepage/Scroller.min.js';
             $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/wronepage/Onepage.min.js';
         }
 
