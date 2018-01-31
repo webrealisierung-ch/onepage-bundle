@@ -4,7 +4,7 @@
   "description": "This Onepage Bundle add a one page navigation module to Contao Open Source CMS",
   "keywords": ["onepage","one","page","navigation","article","contao"],
   "homepage": "https://github.com/webrealisierung-ch/onepage-bundle",
-  "license": "LGPL-3.0+",
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "Daniel Steuri ",
