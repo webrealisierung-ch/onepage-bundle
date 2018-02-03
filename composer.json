@@ -1,7 +1,7 @@
 {
   "name": "wr/onepage-bundle",
   "type": "contao-bundle",
-  "description": "This Onepage Bundle add a one page navigation module to Contao Open Source CMS",
+  "description": "This Onepage Bundle add a one page navigation module to Contao Open Source CMS. No jQuery required!",
   "keywords": ["onepage","one","page","navigation","article","contao"],
   "homepage": "https://github.com/webrealisierung-ch/onepage-bundle",
   "license": "GPL-3.0-or-later",
