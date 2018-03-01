@@ -36,10 +36,10 @@ function Onepage(Mover,selector){
             this.Mover.highlightActiveLink(a,moveEvent);
 
             for (var i = 0; a.length>i; i++) {
-
+                var id = getHashFromLink(a[i]);
                 if(a[i].href && this.Mover.movable(id) !== false){
+
                     var onepage = this;
-                    var id = getHashFromLink(a[i]);
 
                     a[i].addEventListener("click",function(event){
                         event.preventDefault();

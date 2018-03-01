@@ -15,7 +15,7 @@ function Scroller(){
     var running = false;
 
     this.setDuration = function(newDuration){
-        duration = newDuration;
+            duration = checkTypeOf(newDuration,"number");
     };
 
     this.getDuration = function(){
@@ -23,7 +23,7 @@ function Scroller(){
     };
 
     this.setEasing = function(newEasing){
-        easing = newEasing;
+        easing = checkTypeOf(newEasing,"number");
     };
 
     this.getEasing = function(){
@@ -31,7 +31,7 @@ function Scroller(){
     };
 
     this.setOffset = function(newOffset){
-        offset = newOffset;
+        offset = checkTypeOf(newOffset,"number");
     };
 
     this.getOffset = function(){
@@ -43,7 +43,7 @@ function Scroller(){
     };
 
     var setPosition = function (position) {
-        scrollingElement.scrollTop = position;
+        scrollingElement.scrollTop = checkTypeOf(position,"number");
     };
 
     this.getQueue = function (){
@@ -172,6 +172,7 @@ function Scroller(){
             scroller.setActiveLink(sections);
         });
     };
+
     this.setActiveLink = function(linkElements){
         var windowHeight = window.innerHeight*0.25;
         for(var id in linkElements){
@@ -184,5 +185,10 @@ function Scroller(){
                 linkElements[id].classList.remove("active");
             }
         }
+    };
+
+    var checkTypeOf = function (element,type) {
+        if(typeof element === type) return element;
+        throw "Scroller Error: The expected value must be type of "+type;
     }
 }

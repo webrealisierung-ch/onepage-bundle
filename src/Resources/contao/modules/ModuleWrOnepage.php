@@ -17,8 +17,10 @@ class ModuleWrOnepage extends \Module {
         }
 
         if($this->loadDefaultJavascript){
-            $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/wronepage/Scroller.min.js';
-            $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/wronepage/Onepage.min.js';
+            //$GLOBALS['TL_JAVASCRIPT'][] = 'bundles/wronepage/Scroller.min.js';
+            //$GLOBALS['TL_JAVASCRIPT'][] = 'bundles/wronepage/Onepage.min.js';
+            $GLOBALS['TL_BODY'][] = '<script src="bundles/wronepage/Scroller.min.js"></script>';
+            $GLOBALS['TL_BODY'][] = '<script src="bundles/wronepage/Onepage.min.js"></script>';
         }
 
         $arrArticle = array();
