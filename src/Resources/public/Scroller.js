@@ -58,7 +58,7 @@ function Scroller(){
     this.movable = function (id) {
         var id = decodeURI(id);
         var anchorElement=document.getElementById(id);
-        if(anchorElement !== undefined){
+        if(anchorElement != null){
             return true;
         }
         return false
