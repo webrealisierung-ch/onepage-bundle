@@ -43,7 +43,6 @@ function Onepage(Mover,selector){
 
                     a[i].addEventListener("click",function(event){
                         event.preventDefault();
-                        console.log(this);
                         onepage.Mover.move(getHashFromLink(this));
                     });
                 }
