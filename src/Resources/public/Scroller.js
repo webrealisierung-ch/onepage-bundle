@@ -34,6 +34,7 @@ function Scroller(){
         offset = checkTypeOf(newOffset,"number");
     };
 
+
     this.getOffset = function(){
         return offset;
     };
@@ -55,7 +56,7 @@ function Scroller(){
         running = false;
     };
 
-    this.movable = function (id) {
+    this.movable = function(id){
         var id = decodeURI(id);
         var anchorElement=document.getElementById(id);
         if(anchorElement != null){
@@ -158,14 +159,14 @@ function Scroller(){
     };
 
     this.highlightActiveLink = function (links,moveEvent) {
-        sections={};
+        var sections={};
         for(var i = 0; i < links.length ; i++){
-            if(this.movable(links[i])){
-                id=decodeURI(links[i].hash.replace("#", ""));
-                sections[id] = links[i];
+            var id=decodeURI(links[i].hash.replace("#", ""));
+            if(this.movable(id)){
+                if(typeof sections[id] === 'undefined') sections[id] = [];
+                sections[id].push(links[i]);
                 links[i].dispatchEvent(moveEvent);
             }
-
         }
         var scroller = this;
         window.addEventListener("scroll",function (event) {
@@ -180,9 +181,13 @@ function Scroller(){
             var sectionElementHeight = sectionElement.getBoundingClientRect().height;
             var sectionElementTop = getDistanceToBody(sectionElement);
             if(this.getPosition()>=sectionElementTop - windowHeight && this.getPosition() <= sectionElementTop+sectionElementHeight - windowHeight){
-                linkElements[id].classList.add("active");
+                for(var i = 0; i < linkElements[id].length; i++){
+                    linkElements[id][i].classList.add("active");
+                }
             } else {
-                linkElements[id].classList.remove("active");
+                for(var i = 0; i < linkElements[id].length; i++){
+                    linkElements[id][i].classList.remove("active");
+                }
             }
         }
     };
