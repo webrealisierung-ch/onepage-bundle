@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/modules.php" source-language="de">
+    <body>
+      <trans-unit id="FMD.wr-onepage-navigation.0">
+        <source>One Page Navigation</source>
+      </trans-unit>
+      <trans-unit id="FMD.wr-onepage-navigation.1">
+        <source>Erstellt ein One Page Navigation der entsprechenden Artikel</source>
+      </trans-unit>
+      <trans-unit id="tl_module.redirect_legend">
+        <source>Weiterleitungseinstellungen</source>
+      </trans-unit>
+      <trans-unit id="tl_module.options_legend">
+        <source>One Page Einstellung</source>
+      </trans-unit>
+      <trans-unit id="tl_module.load_default_javascript.0">
+        <source>Das Standart-Javascript laden</source>
+      </trans-unit>
+      <trans-unit id="tl_module.load_default_javascript.1">
+        <source>Das Standart-Javascript ist für das animierte Scrollen zum Artikel zuständig.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
