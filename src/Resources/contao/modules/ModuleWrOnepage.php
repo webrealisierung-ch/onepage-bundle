@@ -2,7 +2,7 @@
 
 class ModuleWrOnepage extends \Module {
 
-    protected $strTemplate = 'mod_wr_onepage_navigation';
+    protected $strTemplate = 'mod_wrOnepageNavigation';
     protected function compile()
     {
         global $objPage;
