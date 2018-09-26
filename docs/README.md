@@ -4,7 +4,7 @@ With this bundle you can easily add a onepage navigation to your website. **No j
 
 ## Attention
 
-This bundle is currently under development. You can use it at your own risk! A stable version will be available soon. Of course you can submit issues and feature requests on the [repository issue section](https://github.com/webrealisierung-ch/onepage-bundle/issues). Thx! 
+This bundle is currently under development. You can use it at your own risk! A stable version will be available soon. Of course you can submit issues and feature requests on the [repository issue section](https://github.com/webrealisierung-ch/onepage-bundle/issues). Thx!
 
 ## How to install
 
@@ -36,7 +36,6 @@ Go to the install tool and update the database. Then login into the back end.
 ## Dependencies
 
 - `php: ^7.1`
-- `symfony/symfony: ^3.3`
 - `contao/core-bundle: ^4.4`
 
 ## Licence
@@ -50,18 +49,17 @@ The onepage bundle is published under the LGPLv3.
 [Zur Dokumentation (DE)](https://webrealisierung-ch.github.io/onepage-bundle/DOCUMENTATION-DE)
 
  ## Contact and Support
- 
+
  For further information feel free and get in contact with us: mail@webrealisierung.ch
- 
+
  ## Donation
- 
+
  If you like our work feel free to donate.
- 
+
  There are many ways to donate to the project. The following list contains some possibilities:
- 
+
  - Contribute your code over pull requests.
  - Test, test, test and feedback.
  - Submit features or issues.
  - Tell us a joke.
  - [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EHB7BYWLMPV7Y) You know that every coffee counts while coding:-)
- 
