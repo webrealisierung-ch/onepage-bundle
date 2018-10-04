@@ -34,6 +34,9 @@ class ModuleWrOnepage extends \Module {
                 );
             }
         }
+
+        $this->Template->request = ampersand(\Environment::get('indexFreeRequest'));
+        $this->Template->skipId = 'skipNavigation' . $this->id;
         $this->Template->loadStandartJavascipt = $this->loadDefaultJavascript;
         $this->Template->arrArticle = $arrArticle;
     }

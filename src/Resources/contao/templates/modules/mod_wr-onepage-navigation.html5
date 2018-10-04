@@ -3,12 +3,18 @@
     <?php if ($this->headline): ?>
         <<?= $this->hl ?>><?= $this->headline ?></<?= $this->hl ?>>
     <?php endif; ?>
+
+    <a href="<?= $this->request ?>#<?= $this->skipId ?>" class="invisible"><?= $this->skipNavigation ?></a>
+
     <ul>
         <?php foreach($this->arrArticle as $artNav): ?>
             <li> <a href="<?= $this->uri?>#<?= $artNav['alias']?>"><?php echo $artNav['title'] ?></a></li>
         <?php endforeach;?>
 
     </ul>
+
+    <a id="<?= $this->skipId ?>" class="invisible">&nbsp;</a>
+
     <?php if($this->loadDefaultJavascript): ?>
         <script>
             window.onload = function() {
