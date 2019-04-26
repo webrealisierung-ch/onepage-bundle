@@ -15,10 +15,10 @@
         <source>One Page Einstellungen</source>
       </trans-unit>
       <trans-unit id="tl_module.load_default_javascript.0">
-        <source>Das Standart-Javascript laden</source>
+        <source>Das Standard-Javascript laden</source>
       </trans-unit>
       <trans-unit id="tl_module.load_default_javascript.1">
-        <source>Das Standart-Javascript ist für das animierte Scrollen zum Artikel zuständig.</source>
+        <source>Das Standard-Javascript ist für das animierte Scrollen zum Artikel zuständig.</source>
       </trans-unit>
     </body>
   </file>
