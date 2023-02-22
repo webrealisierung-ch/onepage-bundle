@@ -1,6 +1,5 @@
 {
   "name": "wr/onepage-bundle",
-  "version": "3.0.0",
   "type": "contao-bundle",
   "description": "This Onepage Bundle add a one page navigation module to Contao Open Source CMS. No jQuery required!",
   "keywords": ["onepage","one","page","navigation","article","contao"],
