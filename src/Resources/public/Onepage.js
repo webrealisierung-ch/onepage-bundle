@@ -44,7 +44,7 @@ function Onepage(Mover,selector){
                     a[i].addEventListener("click",function(event){
                         event.preventDefault();
                         onepage.Mover.move(getHashFromLink(this));
-                        window.location.hash = this.hash;
+                        //window.location.hash = this.hash;
                     });
                 }
             }
