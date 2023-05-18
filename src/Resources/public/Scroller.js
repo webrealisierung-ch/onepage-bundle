@@ -183,7 +183,7 @@ function Scroller(){
             if(this.getPosition()>=sectionElementTop - windowHeight && this.getPosition() <= sectionElementTop+sectionElementHeight - windowHeight){
                 for(var i = 0; i < linkElements[id].length; i++){
                     linkElements[id][i].classList.add("active");
-                    if(linkElements[id][i].hash !== '#top') window.location.hash = linkElements[id][i].hash;
+                    //if(linkElements[id][i].hash !== '#top') window.location.hash = linkElements[id][i].hash;
                 }
             } else {
                 for(var i = 0; i < linkElements[id].length; i++){
